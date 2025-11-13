@@ -1,0 +1,24 @@
+{
+  "name": "country-info-api",
+  "version": "1.0.0",
+  "description": "A simple Node.js API for country information deployed on Vercel",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "node test.js",
+    "test:vercel": "echo 'Deploy to Vercel and test at: https://your-project-name.vercel.app/api/list/country'"
+  },
+  "keywords": ["api", "country", "rest", "nodejs", "vercel"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
