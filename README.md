@@ -144,3 +144,6 @@ nodejs-version/
 - No explicit mutex locking (Node.js is single-threaded)
 - Uses console.log instead of zerolog
 - Port changed from 8080 to 3000 for local development
+
+#### Vercel deployment
+[App](https://dummy-country-info-nodejs-pj37.vercel.app/)
