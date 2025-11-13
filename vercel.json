@@ -1,10 +1,9 @@
 {
-  "version": 2,
-  "name": "country-info-api",
-  "description": "A simple Node.js API for country information",
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "@vercel/node@18.x"
-    }
-  }
-}
+   "version": 2,
+   "name": "country-info-api",
+   "functions": {
+     "api/**/*.js": {
+       "runtime": "@vercel/node@18.x"
+     }
+   }
+ }
