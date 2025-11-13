@@ -28,7 +28,7 @@ function toProperCase(name) {
 }
 
 // List countries API endpoint
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   // Log the request
   const timestamp = new Date().toISOString();
   console.log(`${timestamp} - ${req.method} ${req.url}`);
@@ -57,4 +57,4 @@ export default function handler(req, res) {
   console.log(`${timestamp} - Country list request - query: "${query}", results: ${countryNames.length}`);
 
   res.status(200).json({ countries: countryNames });
-}
+};

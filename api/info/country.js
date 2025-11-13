@@ -18,7 +18,7 @@ const countryData = {
 };
 
 // Country info API endpoint
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   // Log the request
   const timestamp = new Date().toISOString();
   console.log(`${timestamp} - ${req.method} ${req.url}`);
@@ -46,4 +46,4 @@ export default function handler(req, res) {
     money_unit: countryInfo.moneyUnit,
     population: countryInfo.population
   });
-}
+};

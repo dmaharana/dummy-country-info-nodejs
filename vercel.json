@@ -1,9 +1,4 @@
 {
    "version": 2,
-   "name": "country-info-api",
-   "functions": {
-     "api/**/*.js": {
-       "runtime": "@vercel/node"
-     }
-   }
- }
+   "name": "country-info-api"
+}
