@@ -3,7 +3,7 @@
    "name": "country-info-api",
    "functions": {
      "api/**/*.js": {
-       "runtime": "@vercel/node@18.x"
+       "runtime": "@vercel/node"
      }
    }
  }
